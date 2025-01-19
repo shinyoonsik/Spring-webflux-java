@@ -8,7 +8,7 @@ public class SpringWebfluxJavaApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(SpringWebfluxJavaApplication.class, args);
-        System.out.println("start!!");
+        System.out.println("start!!!!");
     }
 
 }
