@@ -8,7 +8,8 @@ public class SpringWebfluxJavaApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(SpringWebfluxJavaApplication.class, args);
-        System.out.println("start!!!!!123");
+        System.out.println("start!32131!");
+        System.out.println("args = ");
     }
 
 }
