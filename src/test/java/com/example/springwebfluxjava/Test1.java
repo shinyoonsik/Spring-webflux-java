@@ -36,7 +36,7 @@ public class Test1 {
                         error -> System.out.println("error = " + error),
                         () -> System.out.println("end")
                 );
-        // todo 왜 just에서 발생한 예외는 리액티브 스트림 내에서 발생한 예외가 아니고 위의 메소드는 리액티브 스트림 내에서 발생한 예외인가!
+        // todo 왜 just에서 발생한 예외는 리액티브 스트림(sequenec) 내에서 발생한 예외가 아니고 위의 메소드는 리액티브 스트림 내에서 발생한 예외인가!
 //        Mono.just(
 //                        restTemplate.exchange(uri.build().toUri(), HttpMethod.GET, new HttpEntity<String>(httpHeaders), String.class)
 //                ).map(response -> {
